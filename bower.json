@@ -1,0 +1,19 @@
+{
+  "name": "skeleton-brunch-riot-redux",
+  "description": "",
+  "main": "",
+  "authors": [
+    "youemail@domain.com"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
