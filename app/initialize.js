@@ -12,7 +12,7 @@ require('./tags/error-message')
 var reducer = require('./redux/reducer')
 
 var createStoreWithMiddleware = redux.compose(
-  redux.applyMiddleware(router.middleware),
+  redux.applyMiddleware(router.middleware.factory()),
   redux.applyMiddleware(thunk),
 
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
