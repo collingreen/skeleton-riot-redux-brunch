@@ -6,4 +6,4 @@ var tasks = require('./tasks/index')
 module.exports = redux.combineReducers({
   router: router.reducer,
   tasks: tasks.reducer
-});
+})

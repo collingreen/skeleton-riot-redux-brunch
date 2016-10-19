@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "start": "brunch watch --server",
-    "build": "brunch build --production"
+    "build": "brunch build --production",
+    "lint": "standard"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +16,8 @@
     "redux-thunk": "^1.0.2",
     "riot": "^2.3.11",
     "riot-brunch": "0.0.2",
-    "riot-redux-router-immutable": "^2.0.0"
+    "riot-redux-router-immutable": "^2.0.0",
+    "standard": "^8.4.0"
   },
   "devDependencies": {
     "javascript-brunch": "^2.0.0",
